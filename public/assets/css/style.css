@@ -1,0 +1,144 @@
+/*base.php*/
+div.container {
+    min-height: 78vh;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*nav_bar.php*/
+nav.navbar div.container-fluid div.collapse ul.navbar-nav li a {
+    color: orange;
+}
+
+nav.navbar div.container-fluid a.navbar-brand {
+    font-weight: bold;
+    color: red;
+}
+
+div.loginForm,
+div.SingupForm {
+    margin: auto 0;
+}
+
+div.loginForm form input {
+    border: none;
+    border-radius: 5px;
+}
+
+div.loginForm form input[type="submit"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: bold;
+}
+
+div.SingupForm form {
+    margin: auto 0;
+}
+
+div.SingupForm button {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul .username {
+    position: absolute;
+    color: greenyellow;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;
+}
+
+/*create acount form*/
+
+div.createAccountBox {
+    z-index: 999;
+    width: 550px;
+    border: 5px ridge black;
+    padding: 50px;
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    background-color: teal;
+    color: white;
+}
+
+form#createAccountForm div.d-flex {
+    width: 100%;
+    font-weight: bold;
+}
+
+form#createAccountForm select#sexe {
+    height: 40px;
+    border-radius: 5px;
+}
+
+/*home.php*/
+div.productImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 18rem;
+    height: 12rem;
+}
+
+div.card-body :nth-child(3) {
+    font-weight: bold;
+    color: orange;
+}
+
+.productsIndiv {
+    margin: 5px 0;
+}
+
+div.priceAndDetailBt {
+    width: 17rem;
+}
+
+/*panier*/
+table {
+    border: 3px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table tr {
+    border: 2px solid blue;
+}
+
+table tr td {
+    border: 2px solid orange;
+}
+
+table tr th {
+    border: 2px solid orange;
+    background-color: whitesmoke;
+}
+
+form input.annuler_bt {
+    border: none;
+    background-color: rgb(255, 193, 7);
+
+}
+
+form input.annuler_bt:hover {
+    border: none;
+    background-color: rgb(255, 193, 7);
+
+}
+
+table.tableCmds {
+    width: 100%;
+}
+
+form input.commander_bt {
+    border: none;
+    background-color: rgb(25, 135, 84);
+}
